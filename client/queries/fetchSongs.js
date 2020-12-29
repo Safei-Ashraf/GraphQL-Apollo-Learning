@@ -1,12 +1,11 @@
 import gql from 'graphql-tag';
 
-const fetchSongsQuery = gql`
+
+
+export default gql`
 {
     songs{
     title,
     id
     }
-}
-`;
-
-export default fetchSongsQuery;
+}`;
